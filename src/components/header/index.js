@@ -4,10 +4,10 @@ import logo from '../../assets/graphics/catlogo.png'
 
 const Header = (props) => {
     return(
-        <header> 
+        <header data-test="headerclass"> 
             <div className="wrap">
                 <div className="logo">
-                <img src={logo}></img>
+                <img  data-test="logoimg" src={logo}></img>
                 </div>
             </div> 
 

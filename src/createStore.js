@@ -3,7 +3,7 @@ import RootReducer from './reducers';
 import ReduxThunk from 'redux-thunk';
 
 
-const middlewares = [ReduxThunk];
+export const middlewares = [ReduxThunk];
 
 const createStorewithmiddleware = applyMiddleware(...middlewares)(createStore);
 
